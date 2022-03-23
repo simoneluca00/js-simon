@@ -49,7 +49,7 @@ btnStart.addEventListener('click', function(){
             number.className = 'd-none';
             containerOutput.style.justifyContent = 'center';
             containerOutput.style.fontSize = '3em';
-        }, 3000);
+        }, 30000);
 
         // ANCHOR 3) Dopo 30 secondi l'utente deve inserire, uno alla volta, i numeri che ha visto precedentemente, tramite il prompt().
         
@@ -72,7 +72,7 @@ btnStart.addEventListener('click', function(){
                 document.getElementById('containerOutput').innerHTML = `Hai bisogno di fosforo`;
             }
 
-        }, 3100);
+        }, 31000);
         
     }
     
